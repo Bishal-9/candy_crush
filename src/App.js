@@ -2,19 +2,12 @@ import { useEffect, useState } from "react"
 import ScoreBoard from "./component/ScoreBoard"
 
 import blank from './images/blank.png'
-import Image01 from './images/image-01.jpg'
-import Image02 from './images/image-02.jpg'
-import Image03 from './images/image-03.jpg'
-import Image04 from './images/image-04.jpg'
-import Image05 from './images/image-05.jpg'
-import Image06 from './images/image-06.jpg'
-import Image07 from './images/image-07.jpg'
-import Image08 from './images/image-08.jpg'
-import Image09 from './images/image-09.jpg'
-import Image10 from './images/image-10.jpg'
-import Image11 from './images/image-11.jpg'
-import Image12 from './images/image-12.jpg'
-import Image13 from './images/image-13.jpg'
+import Image01 from './images/image-01.png'
+import Image02 from './images/image-02.png'
+import Image03 from './images/image-03.png'
+import Image04 from './images/image-04.png'
+import Image05 from './images/image-05.png'
+import Image06 from './images/image-06.png'
 
 const width = 8
 const candyColors = [
@@ -25,13 +18,6 @@ const candyColors = [
     Image04,
     Image05,
     Image06,
-    Image07,
-    Image08,
-    Image09,
-    Image10,
-    Image11,
-    Image12,
-    Image13
 ]
 
 const App = () => {
